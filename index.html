@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Data Showcase</title>
+</head>
+<body>
+    <header>
+        <h1 data-testid="page-title">My Personal Data</h1>
+    </header>
+    <main>
+        <section data-testid="personal-info">
+
+            <div>
+                <img src="./Aseets/project.jpg" alt="Abdulazeez-Apata" data-testid="slackDisplayImage" loading="lazy" class="img">
+            </div>
+            <div>
+                <h1 data-testid="slackUserName">Abdulazeez Apata</h1>
+                <p data-testid="myTrack">Track: Frontend</p>
+            </div>
+        </section>
+
+        <section data-testid="real-time-info">
+            <h2>Real-Time Data</h2>
+            <p data-testid="currentDayOfTheWeek" id="currentDayOfTheWeek"><span>Day of the Week: </span></p>
+            <p data-testid="currentUTCTime" id="currentUTCTime"><span>Current UTC Time: </span></p>
+        </section>
+    </main>
+    <footer>
+        <p data-testid="footer-text">© 2023 HNG stage one</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
